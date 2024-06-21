@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Movie History Analyzer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Indian Movie History Analyzer</h1>
+<form action="/analyze" method="POST">
+<label for="genre">Genre:</label>
+<select id="genre" name="genre">
+<option value="Action">Action</option>
+<option value="Romance">Romance</option>
+<option value="Comedy">Comedy</option>
+<option value="Drama">Drama</option>
+</select>
+<br>
+<label for="start_year">Start Year:</label>
+<input type="number" id="start_year" name="start_year">
+<br>
+<label for="end_year">End Year:</label>
+<input type="number" id="end_year" name="end_year">
+<br>
+<input type="submit" value="Analyze">
+</form>
+</body>
+</html>
+
+
